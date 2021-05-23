@@ -1,0 +1,12 @@
+main{
+    width: auto;
+    float: none;
+    flex: 30;
+    background-color: black; 
+    color white
+}
+aside{
+    width: auto;
+    float: left;
+    background-color: white;
+}

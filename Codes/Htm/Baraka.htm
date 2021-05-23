@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        border:#333;
+      }
+      .header {
+    padding: 80px;
+    text-align: center;
+    background: #00ff00; 
+    color: rgb(17, 2, 2);
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+  }
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  .footer {
+    padding: 15px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+    font-family: 'Ubuntu', sans-serif;
+  }
+  /* Ensure proper sizing */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+    font-family: 'Ubuntu', sans-serif;
+  }
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+    font-family: 'Ubuntu', sans-serif;
+  }
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+    </style>
+
+    <title>Baraka.co</title>
+</head>
+<body>
+  <script src="C:\Users\Caroline\Desktop\Codes\Learn js\app.js"></script>
+    <div class="header">
+        <h1>
+            Baraka Rotich
+        </h1>
+        <p>
+            I am the creator of Nogeyc.co
+        </p>
+    </div>
+     
+       
+    <div class="row">
+        <div class="side">
+          <h1>
+            I code during the weekends and on Holidays 
+          </h1>   
+        </div>
+        <div class="main">
+          <h1>
+            I learn during school days and when i am done coding always
+          </h1>
+        </div>
+    </div>
+
+    <div class="footer">
+      <h2>
+          Copyright &copy; 2021 - 2022.
+      </h2>
+  </div>
+
+</body>
+</html>
